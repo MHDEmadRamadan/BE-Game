@@ -11,7 +11,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
         <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload landing">
 		<div id="page-wrapper">
@@ -34,6 +35,7 @@
 								</ul>
 							</li>
 							<li><a href="/elements">Elements</a></li>
+							<li><a href="/appointment">Appointment</a></li>
 							<li><a href="#" class="button primary">Sign Up</a></li>
 						</ul>
 					</nav>

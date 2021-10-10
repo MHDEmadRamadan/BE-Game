@@ -23,6 +23,8 @@ Route::get('/left-sidebar', 'IndexController@LeftSidebar');
 Route::get('/right-sidebar', 'IndexController@RightSidebar');
 // for ps-store no-sidebar page
 Route::get('/no-sidebar', 'IndexController@NoSidebar');
+// for ps-store Appointment page
+Route::get('/appointment', 'IndexController@Appointment');
 
 
 

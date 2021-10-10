@@ -28,4 +28,8 @@ class IndexController extends Controller
     public function NoSidebar(){
         return view('ps-store/no-sidebar');
     }
+    // for Appointment no-sidebar page
+    public function Appointment(){
+        return view('ps-store/appointment');
+    }
 }
