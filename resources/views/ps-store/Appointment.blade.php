@@ -7,31 +7,36 @@
 	<title>Contact V17</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+    {{-- icon --}}
+    <link rel="shortcut icon" href="ps-store/images/logo.png" type="image/x-icon">
+
+    {{-- <link rel="shortcut icon" href="ps-store/Appointment/images/logo.png" sizes="16x16" type="image/x-icon"> --}}
             <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="ps-store/Appointment/vendor/bootstrap/css/bootstrap.min.css">
 	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="ps-store/Appointment/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
 	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+	<link rel="stylesheet" type="text/css" href="ps-store/Appointment/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
 	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+	<link rel="stylesheet" type="text/css" href="ps-store/Appointment/vendor/animate/animate.css">
 	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+	<link rel="stylesheet" type="text/css" href="ps-store/Appointment/vendor/css-hamburgers/hamburgers.min.css">
 	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+	<link rel="stylesheet" type="text/css" href="ps-store/Appointment/vendor/animsition/css/animsition.min.css">
 	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+	<link rel="stylesheet" type="text/css" href="ps-store/Appointment/vendor/select2/select2.min.css">
 	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+	<link rel="stylesheet" type="text/css" href="ps-store/Appointment/vendor/daterangepicker/daterangepicker.css">
 	<!--===============================================================================================-->
-    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="ps-store/Appointment/images/logo.png" type="image/x-icon">
 	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="css/Appointment/util.css">
-	<link rel="stylesheet" type="text/css" href="css/Appointment/main.css">
+	<link rel="stylesheet" type="text/css" href="ps-store/Appointment/css/util.css">
+	<link rel="stylesheet" type="text/css" href="ps-store/Appointment/css/main.css">
 	<!--===============================================================================================-->
 
 </head>
 @extends('ps-store.MasterIndex')
+
 <body class="is-preload">
 
     @section('header')
@@ -111,7 +116,7 @@
 				</div>
 			</form>
 
-			<div class="contact100-more flex-col-c-m" style="background-image: url('images/bg-01.jpg');">
+			<div class="contact100-more flex-col-c-m" style="background-image: url('ps-store/Appointment//images/bg-01.jpg');">
 				<div class="flex-w size1 p-b-47">
 					<div class="txt1 p-r-25">
 						<span class="lnr lnr-map-marker"></span>
@@ -168,14 +173,14 @@
 	<div id="dropDownSelect1"></div>
 
 	<!--===============================================================================================-->
-	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+	<script src="ps-store/Appointment/vendor/jquery/jquery-3.2.1.min.js"></script>
 	<!--===============================================================================================-->
-	<script src="vendor/animsition/js/animsition.min.js"></script>
+	<script src="ps-store/Appointment/vendor/animsition/js/animsition.min.js"></script>
 	<!--===============================================================================================-->
-	<script src="vendor/bootstrap/js/popper.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script src="ps-store/Appointment/vendor/bootstrap/js/popper.js"></script>
+	<script src="ps-store/Appointment/vendor/bootstrap/js/bootstrap.min.js"></script>
 	<!--===============================================================================================-->
-	<script src="vendor/select2/select2.min.js"></script>
+	<script src="ps-store/Appointment/vendor/select2/select2.min.js"></script>
 	<script>
 		$(".selection-2").select2({
 			minimumResultsForSearch: 20,
@@ -183,12 +188,12 @@
 		});
 	</script>
 	<!--===============================================================================================-->
-	<script src="vendor/daterangepicker/moment.min.js"></script>
-	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+	<script src="ps-store/Appointment/vendor/daterangepicker/moment.min.js"></script>
+	<script src="ps-store/Appointment/vendor/daterangepicker/daterangepicker.js"></script>
 	<!--===============================================================================================-->
-	<script src="vendor/countdowntime/countdowntime.js"></script>
+	<script src="ps-store/Appointment/vendor/countdowntime/countdowntime.js"></script>
 	<!--===============================================================================================-->
-	<script src="js/js/main.js"></script>
+	<script src="ps-store/Appointment/js/js/main.js"></script>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
 	<script>

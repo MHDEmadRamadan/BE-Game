@@ -32,4 +32,8 @@ class IndexController extends Controller
     public function Appointment(){
         return view('ps-store/appointment');
     }
+    // for Appointment no-sidebar page
+    public function pagelogin(){
+        return view('ps-store/login');
+    }
 }

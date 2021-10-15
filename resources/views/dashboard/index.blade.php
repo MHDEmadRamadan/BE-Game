@@ -12,19 +12,19 @@
 
     <!-- Favicon icon -->
     {{-- <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png"> --}}
-    <link rel="shortcut icon" href="images/logo.png" sizes="16x16" type="image/x-icon">
+    <link rel="shortcut icon" href="dashboard/images/logo.png" sizes="16x16" type="image/x-icon">
 
     <title>Ela - Bootstrap Admin Dashboard Template</title>
     <!-- Bootstrap Core CSS -->
-    <link href="css/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="dashboard/css/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
 
-    <link href="css/lib/calendar2/semantic.ui.min.css" rel="stylesheet">
-    <link href="css/lib/calendar2/pignose.calendar.min.css" rel="stylesheet">
-    <link href="css/lib/owl.carousel.min.css" rel="stylesheet" />
-    <link href="css/lib/owl.theme.default.min.css" rel="stylesheet" />
-    <link href="css/helper.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="dashboard/css/lib/calendar2/semantic.ui.min.css" rel="stylesheet">
+    <link href="dashboard/css/lib/calendar2/pignose.calendar.min.css" rel="stylesheet">
+    <link href="dashboard/css/lib/owl.carousel.min.css" rel="stylesheet" />
+    <link href="dashboard/css/lib/owl.theme.default.min.css" rel="stylesheet" />
+    <link href="dashboard/css/helper.css" rel="stylesheet">
+    <link href="dashboard/css/style.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:** -->
     <!--[if lt IE 9]>
@@ -45,7 +45,7 @@
 
         @extends('dashboard/dashboard-master')
         @section('body')
-        
+
         <!-- Page wrapper  -->
         <div class="page-wrapper">
             <!-- Bread crumb -->
@@ -171,7 +171,7 @@
                                 <div class="testimonial-widget-one owl-carousel owl-theme">
                                     <div class="item">
                                         <div class="testimonial-content">
-                                            <img class="testimonial-author-img" src="images/avatar/2.jpg" alt="" />
+                                            <img class="testimonial-author-img" src="dashboard/images/avatar/2.jpg" alt="" />
                                             <div class="testimonial-author">John</div>
                                             <div class="testimonial-author-position">Founder-Ceo. Dell Corp</div>
 
@@ -183,7 +183,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="testimonial-content">
-                                            <img class="testimonial-author-img" src="images/avatar/3.jpg" alt="" />
+                                            <img class="testimonial-author-img" src="dashboard/images/avatar/3.jpg" alt="" />
                                             <div class="testimonial-author">Abraham</div>
                                             <div class="testimonial-author-position">Founder-Ceo. Dell Corp</div>
 
@@ -195,7 +195,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="testimonial-content">
-                                            <img class="testimonial-author-img" src="images/avatar/1.jpg" alt="" />
+                                            <img class="testimonial-author-img" src="dashboard/images/avatar/1.jpg" alt="" />
                                             <div class="testimonial-author">Lincoln</div>
                                             <div class="testimonial-author-position">Founder-Ceo. Dell Corp</div>
 
@@ -207,7 +207,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="testimonial-content">
-                                            <img class="testimonial-author-img" src="images/avatar/4.jpg" alt="" />
+                                            <img class="testimonial-author-img" src="dashboard/images/avatar/4.jpg" alt="" />
                                             <div class="testimonial-author">TYRION LANNISTER</div>
                                             <div class="testimonial-author-position">Founder-Ceo. Dell Corp</div>
 
@@ -219,7 +219,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="testimonial-content">
-                                            <img class="testimonial-author-img" src="images/avatar/5.jpg" alt="" />
+                                            <img class="testimonial-author-img" src="dashboard/images/avatar/5.jpg" alt="" />
                                             <div class="testimonial-author">TYRION LANNISTER</div>
                                             <div class="testimonial-author-position">Founder-Ceo. Dell Corp</div>
 
@@ -231,7 +231,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="testimonial-content">
-                                            <img class="testimonial-author-img" src="images/avatar/6.jpg" alt="" />
+                                            <img class="testimonial-author-img" src="dashboard/images/avatar/6.jpg" alt="" />
                                             <div class="testimonial-author">TYRION LANNISTER</div>
                                             <div class="testimonial-author-position">Founder-Ceo. Dell Corp</div>
 
@@ -267,7 +267,7 @@
                                             <tr>
                                                 <td>
                                                     <div class="round-img">
-                                                        <a href=""><img src="images/avatar/4.jpg" alt=""></a>
+                                                        <a href=""><img src="dashboard/images/avatar/4.jpg" alt=""></a>
                                                     </div>
                                                 </td>
                                                 <td>John Abraham</td>
@@ -278,7 +278,7 @@
                                             <tr>
                                                 <td>
                                                     <div class="round-img">
-                                                        <a href=""><img src="images/avatar/2.jpg" alt=""></a>
+                                                        <a href=""><img src="dashboard/images/avatar/2.jpg" alt=""></a>
                                                     </div>
                                                 </td>
                                                 <td>John Abraham</td>
@@ -289,7 +289,7 @@
                                             <tr>
                                                 <td>
                                                     <div class="round-img">
-                                                        <a href=""><img src="images/avatar/3.jpg" alt=""></a>
+                                                        <a href=""><img src="dashboard/images/avatar/3.jpg" alt=""></a>
                                                     </div>
                                                 </td>
                                                 <td>John Abraham</td>
@@ -300,7 +300,7 @@
                                             <tr>
                                                 <td>
                                                     <div class="round-img">
-                                                        <a href=""><img src="images/avatar/4.jpg" alt=""></a>
+                                                        <a href=""><img src="dashboard/images/avatar/4.jpg" alt=""></a>
                                                     </div>
                                                 </td>
                                                 <td>John Abraham</td>
@@ -328,7 +328,7 @@
 								<div class="recent-comment">
 									<div class="media">
 										<div class="media-left">
-											<a href="#"><img alt="..." src="images/avatar/1.jpg" class="media-object"></a>
+											<a href="#"><img alt="..." src="dashboard/images/avatar/1.jpg" class="media-object"></a>
 										</div>
 										<div class="media-body">
 											<h4 class="media-heading">john doe</h4>
@@ -338,7 +338,7 @@
 									</div>
 									<div class="media">
 										<div class="media-left">
-											<a href="#"><img alt="..." src="images/avatar/1.jpg" class="media-object"></a>
+											<a href="#"><img alt="..." src="dashboard/images/avatar/1.jpg" class="media-object"></a>
 										</div>
 										<div class="media-body">
 											<h4 class="media-heading">john doe</h4>
@@ -349,7 +349,7 @@
 
 									<div class="media">
 										<div class="media-left">
-											<a href="#"><img alt="..." src="images/avatar/1.jpg" class="media-object"></a>
+											<a href="#"><img alt="..." src="dashboard/images/avatar/1.jpg" class="media-object"></a>
 										</div>
 										<div class="media-body">
 											<h4 class="media-heading">john doe</h4>
@@ -360,7 +360,7 @@
 
 									<div class="media no-border">
 										<div class="media-left">
-											<a href="#"><img alt="..." src="images/avatar/1.jpg" class="media-object"></a>
+											<a href="#"><img alt="..." src="dashboard/images/avatar/1.jpg" class="media-object"></a>
 										</div>
 										<div class="media-body">
 											<h4 class="media-heading">Mr. Michael</h4>
@@ -449,41 +449,41 @@
     </div>
     <!-- End Wrapper -->
     <!-- All Jquery -->
-    <script src="js/lib/jquery/jquery.min.js"></script>
+    <script src="dashboard/js/lib/jquery/jquery.min.js"></script>
     <!-- Bootstrap tether Core JavaScript -->
-    <script src="js/lib/bootstrap/js/popper.min.js"></script>
-    <script src="js/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="dashboard/js/lib/bootstrap/js/popper.min.js"></script>
+    <script src="dashboard/js/lib/bootstrap/js/bootstrap.min.js"></script>
     <!-- slimscrollbar scrollbar JavaScript -->
-    <script src="js/jquery.slimscroll.js"></script>
+    <script src="dashboard/js/jquery.slimscroll.js"></script>
     <!--Menu sidebar -->
-    <script src="js/sidebarmenu.js"></script>
+    <script src="dashboard/js/sidebarmenu.js"></script>
     <!--stickey kit -->
-    <script src="js/lib/sticky-kit-master/dist/sticky-kit.min.js"></script>
+    <script src="dashboard/js/lib/sticky-kit-master/dist/sticky-kit.min.js"></script>
     <!--Custom JavaScript -->
 
 
     <!-- Amchart -->
-     <script src="js/lib/morris-chart/raphael-min.js"></script>
-    <script src="js/lib/morris-chart/morris.js"></script>
-    <script src="js/lib/morris-chart/dashboard1-init.js"></script>
+     <script src="dashboard/js/lib/morris-chart/raphael-min.js"></script>
+    <script src="dashboard/js/lib/morris-chart/morris.js"></script>
+    <script src="dashboard/js/lib/morris-chart/dashboard1-init.js"></script>
 
 
-	<script src="js/lib/calendar-2/moment.latest.min.js"></script>
+	<script src="dashboard/js/lib/calendar-2/moment.latest.min.js"></script>
     <!-- scripit init-->
-    <script src="js/lib/calendar-2/semantic.ui.min.js"></script>
+    <script src="dashboard/js/lib/calendar-2/semantic.ui.min.js"></script>
     <!-- scripit init-->
-    <script src="js/lib/calendar-2/prism.min.js"></script>
+    <script src="dashboard/js/lib/calendar-2/prism.min.js"></script>
     <!-- scripit init-->
-    <script src="js/lib/calendar-2/pignose.calendar.min.js"></script>
+    <script src="dashboard/js/lib/calendar-2/pignose.calendar.min.js"></script>
     <!-- scripit init-->
-    <script src="js/lib/calendar-2/pignose.init.js"></script>
+    <script src="dashboard/js/lib/calendar-2/pignose.init.js"></script>
 
-    <script src="js/lib/owl-carousel/owl.carousel.min.js"></script>
-    <script src="js/lib/owl-carousel/owl.carousel-init.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="dashboard/js/lib/owl-carousel/owl.carousel.min.js"></script>
+    <script src="dashboard/js/lib/owl-carousel/owl.carousel-init.js"></script>
+    <script src="dashboard/js/scripts.js"></script>
     <!-- scripit init-->
 
-    <script src="js/custom.min.js"></script>
+    <script src="dashboard/js/custom.min.js"></script>
     @endsection
 
 </body>

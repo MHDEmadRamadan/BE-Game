@@ -10,17 +10,17 @@
     <meta name="author" content="">
     <!-- Favicon icon -->
     {{-- <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png"> --}}
-    <link rel="shortcut icon" href="images/logo.png" sizes="16x16" type="image/x-icon">
+    <link rel="shortcut icon" href="dashboard/images/logo.png" sizes="16x16" type="image/x-icon">
     <title>Ela - Bootstrap Admin Dashboard Template</title>
 
-    <link href="css/lib/chartist/chartist.min.css" rel="stylesheet">
-	<link href="css/lib/owl.carousel.min.css" rel="stylesheet" />
-    <link href="css/lib/owl.theme.default.min.css" rel="stylesheet" />
+    <link href="dashboard/css/lib/chartist/chartist.min.css" rel="stylesheet">
+	<link href="dashboard/css/lib/owl.carousel.min.css" rel="stylesheet" />
+    <link href="dashboard/css/lib/owl.theme.default.min.css" rel="stylesheet" />
     <!-- Bootstrap Core CSS -->
-    <link href="css/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="dashboard/css/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
-    <link href="css/helper.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="dashboard/css/helper.css" rel="stylesheet">
+    <link href="dashboard/css/style.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:** -->
     <!--[if lt IE 9]>
@@ -37,7 +37,7 @@
     </div>
     <!-- Main wrapper  -->
     <div id="main-wrapper">
-       
+
         @extends('dashboard/dashboard-master')
         @section('body')
 
@@ -338,7 +338,7 @@
                                 <div class="recent-meaasge">
                                     <div class="media">
                                         <div class="media-left">
-                                            <a href="#"><img alt="..." src="images/avatar/1.jpg" class="media-object"></a>
+                                            <a href="#"><img alt="..." src="dashboard/images/avatar/1.jpg" class="media-object"></a>
                                         </div>
                                         <div class="media-body">
                                             <h4 class="media-heading">john doe</h4>
@@ -348,7 +348,7 @@
                                     </div>
                                     <div class="media">
                                         <div class="media-left">
-                                            <a href="#"><img alt="..." src="images/avatar/2.jpg" class="media-object"></a>
+                                            <a href="#"><img alt="..." src="dashboard/images/avatar/2.jpg" class="media-object"></a>
                                         </div>
                                         <div class="media-body">
                                             <h4 class="media-heading">Mr. John</h4>
@@ -358,7 +358,7 @@
                                     </div>
                                     <div class="media">
                                         <div class="media-left">
-                                            <a href="#"><img alt="..." src="images/avatar/3.jpg" class="media-object"></a>
+                                            <a href="#"><img alt="..." src="dashboard/images/avatar/3.jpg" class="media-object"></a>
                                         </div>
                                         <div class="media-body">
                                             <h4 class="media-heading">Mr. Michael</h4>
@@ -368,7 +368,7 @@
                                     </div>
                                     <div class="media no-border">
                                         <div class="media-left">
-                                            <a href="#"><img alt="..." src="images/avatar/2.jpg" class="media-object"></a>
+                                            <a href="#"><img alt="..." src="dashboard/images/avatar/2.jpg" class="media-object"></a>
                                         </div>
                                         <div class="media-body">
                                             <h4 class="media-heading">Mr. John</h4>
@@ -435,34 +435,34 @@
     </div>
     <!-- End Wrapper -->
     <!-- All Jquery -->
-    <script src="js/lib/jquery/jquery.min.js"></script>
+    <script src="dashboard/js/lib/jquery/jquery.min.js"></script>
     <!-- Bootstrap tether Core JavaScript -->
-    <script src="js/lib/bootstrap/js/popper.min.js"></script>
-    <script src="js/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="dashboard/js/lib/bootstrap/js/popper.min.js"></script>
+    <script src="dashboard/js/lib/bootstrap/js/bootstrap.min.js"></script>
     <!-- slimscrollbar scrollbar JavaScript -->
-    <script src="js/jquery.slimscroll.js"></script>
+    <script src="dashboard/js/jquery.slimscroll.js"></script>
     <!--Menu sidebar -->
-    <script src="js/sidebarmenu.js"></script>
+    <script src="dashboard/js/sidebarmenu.js"></script>
     <!--stickey kit -->
-    <script src="js/lib/sticky-kit-master/dist/sticky-kit.min.js"></script>
+    <script src="dashboard/js/lib/sticky-kit-master/dist/sticky-kit.min.js"></script>
 
 
-    <script src="js/lib/datamap/d3.min.js"></script>
-    <script src="js/lib/datamap/topojson.js"></script>
-    <script src="js/lib/datamap/datamaps.world.min.js"></script>
-    <script src="js/lib/datamap/datamap-init.js"></script>
+    <script src="dashboard/js/lib/datamap/d3.min.js"></script>
+    <script src="dashboard/js/lib/datamap/topojson.js"></script>
+    <script src="dashboard/js/lib/datamap/datamaps.world.min.js"></script>
+    <script src="dashboard/js/lib/datamap/datamap-init.js"></script>
 
-    <script src="js/lib/weather/jquery.simpleWeather.min.js"></script>
-    <script src="js/lib/weather/weather-init.js"></script>
-    <script src="js/lib/owl-carousel/owl.carousel.min.js"></script>
-    <script src="js/lib/owl-carousel/owl.carousel-init.js"></script>
+    <script src="dashboard/js/lib/weather/jquery.simpleWeather.min.js"></script>
+    <script src="dashboard/js/lib/weather/weather-init.js"></script>
+    <script src="dashboard/js/lib/owl-carousel/owl.carousel.min.js"></script>
+    <script src="dashboard/js/lib/owl-carousel/owl.carousel-init.js"></script>
 
 
-    <script src="js/lib/chartist/chartist.min.js"></script>
-    <script src="js/lib/chartist/chartist-plugin-tooltip.min.js"></script>
-    <script src="js/lib/chartist/chartist-init.js"></script>
+    <script src="dashboard/js/lib/chartist/chartist.min.js"></script>
+    <script src="dashboard/js/lib/chartist/chartist-plugin-tooltip.min.js"></script>
+    <script src="dashboard/js/lib/chartist/chartist-init.js"></script>
     <!--Custom JavaScript -->
-    <script src="js/custom.min.js"></script>
+    <script src="dashboard/js/custom.min.js"></script>
 @endsection
 </body>
 

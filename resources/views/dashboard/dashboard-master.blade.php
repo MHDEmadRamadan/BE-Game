@@ -7,10 +7,10 @@
         <div class="navbar-header">
             <a class="navbar-brand" href="/adminindex">
                 <!-- Logo icon -->
-                <b><img src="images/logo.png" alt="homepage" class="dark-logo" /></b>
+                <b><img src="dashboard/images/logo.png" alt="homepage" class="dark-logo" /></b>
                 <!--End Logo icon -->
                 <!-- Logo text -->
-                <span><img src="images/logo-text.png" alt="homepage" class="dark-logo" /></span>
+                <span><img src="dashboard/images/logo-text.png" alt="homepage" class="dark-logo" /></span>
             </a>
         </div>
         <!-- End Logo -->
@@ -33,7 +33,7 @@
                 </li>
                 <!-- Profile -->
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-muted  " href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/users/5.jpg" alt="user" class="profile-pic" /></a>
+                    <a class="nav-link dropdown-toggle text-muted  " href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="dashboard/images/users/5.jpg" alt="user" class="profile-pic" /></a>
                     <div class="dropdown-menu dropdown-menu-right animated zoomIn">
                         <ul class="dropdown-user">
                             <li><a href="/appprofile"><i class="ti-user"></i> Profile</a></li>
@@ -94,7 +94,7 @@
                         <li><a href="#" class="has-arrow">Authentication <span class="label label-rounded label-success">6</span></a>
                             <ul aria-expanded="false" class="collapse">
                                 <li><a href="/pagelogin">Login</a></li>
-                                <li><a href="/pageregister">Register</a></li>
+                                <li><a href="/registeradmin">Register</a></li>
                                 <li><a href="/pageinvoice">Invoice</a></li>
                             </ul>
                         </li>

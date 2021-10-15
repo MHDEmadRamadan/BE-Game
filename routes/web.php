@@ -25,6 +25,8 @@ Route::get('/right-sidebar', 'IndexController@RightSidebar');
 Route::get('/no-sidebar', 'IndexController@NoSidebar');
 // for ps-store Appointment page
 Route::get('/appointment', 'IndexController@Appointment');
+          // for page-login page
+Route::get('/pagelogin', 'IndexController@pagelogin');
 
 
 
@@ -48,11 +50,13 @@ Route::get('/adminformvalidation', 'DashboardController@formvalidation');
 Route::get('/adminformeditor', 'DashboardController@formeditor');
          // for dashboard table-datatable page
 Route::get('/tabledatatable', 'DashboardController@tabledatatable');
-         // for dashboard page-login page
-Route::get('/pagelogin', 'DashboardController@pagelogin');
-         // for dashboard page-register page
-Route::get('/pageregister', 'DashboardController@pageregister');
+          // for dashboard page-login page
+// Route::get('/pagelogin', 'DashboardController@pagelogin');
+          // for dashboard page-register page
+// Route::get('/pageregister', 'DashboardController@pageregister');
          // for dashboard page-invoice page
-Route::get('/pageinvoice', 'DashboardController@pageinvoice');
+// Route::get('/pageinvoice', 'DashboardController@pageinvoice');
          // for dashboard app-profile page
 Route::get('/appprofile', 'DashboardController@appprofile');
+         // for dashboard register admin page
+Route::get('/registeradmin', 'DashboardController@registeradmin');

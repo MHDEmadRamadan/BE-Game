@@ -25,7 +25,7 @@ class DashboardController extends Controller
          // for dashboard email-inbox page
     public function emailinbox(){
         return view('dashboard/email-inbox');
-    }    
+    }
          // for dashboard form-layout page
     public function formlayout(){
         return view('dashboard/form-layout');
@@ -57,5 +57,9 @@ class DashboardController extends Controller
          // for dashboard app-profile page
     public function appprofile(){
         return view('dashboard/app-profile');
+    }
+         // for dashboard register-admin page
+    public function registeradmin(){
+        return view('dashboard/register-admin');
     }
 }

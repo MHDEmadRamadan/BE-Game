@@ -1,6 +1,8 @@
 @extends('ps-store.MasterIndex')
-@section('header')
 
+
+
+@section('header')
 			<!-- Banner -->
 				<section id="banner">
 					<div class="content">
@@ -9,14 +11,14 @@
 							<p>And there are no hoverboards or flying cars.<br />
 							Just apps. Lots of mother flipping apps.</p>
 						</header>
-						<span class="image"><img src="images/pic01.jpg" alt="" /></span>
+						<span class="image"><img src="ps-store/images/pic01.jpg" alt="" /></span>
 					</div>
 					<a href="#one" class="goto-next scrolly">Next</a>
 				</section>
 
 			<!-- One -->
 				<section id="one" class="spotlight style1 bottom">
-					<span class="image fit main"><img src="images/pic02.jpg" alt="" /></span>
+					<span class="image fit main"><img src="ps-store/images/pic02.jpg" alt="" /></span>
 					<div class="content">
 						<div class="container">
 							<div class="row">
@@ -48,7 +50,7 @@
 
 			<!-- Two -->
 				<section id="two" class="spotlight style2 right">
-					<span class="image fit main"><img src="images/pic03.jpg" alt="" /></span>
+					<span class="image fit main"><img src="ps-store/images/pic03.jpg" alt="" /></span>
 					<div class="content">
 						<header>
 							<h2>Interdum amet non magna accumsan</h2>
@@ -64,7 +66,7 @@
 
 			<!-- Three -->
 				<section id="three" class="spotlight style3 left">
-					<span class="image fit main bottom"><img src="images/pic04.jpg" alt="" /></span>
+					<span class="image fit main bottom"><img src="ps-store/images/pic04.jpg" alt="" /></span>
 					<div class="content">
 						<header>
 							<h2>Interdum felis blandit praesent sed augue</h2>

@@ -9,10 +9,11 @@
 		<title>Landed by HTML5 UP</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-        <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+		<link rel="stylesheet" href="ps-store/assets/css/main.css" />
 
-    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        <link rel="shortcut icon" href="ps-store/images/logo.png" type="image/x-icon">
+
+    <noscript><link rel="stylesheet" href="ps-store/assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload landing">
 		<div id="page-wrapper">
@@ -36,7 +37,7 @@
 							</li>
 							<li><a href="/elements">Elements</a></li>
 							<li><a href="/appointment">Appointment</a></li>
-							<li><a href="#" class="button primary">Sign Up</a></li>
+							<li><a href="/pagelogin" class="button primary">Sign In</a></li>
 						</ul>
 					</nav>
 				</header>
@@ -62,14 +63,14 @@
 		</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+			<script src="ps-store/assets/js/jquery.min.js"></script>
+			<script src="ps-store/assets/js/jquery.scrolly.min.js"></script>
+			<script src="ps-store/assets/js/jquery.dropotron.min.js"></script>
+			<script src="ps-store/assets/js/jquery.scrollex.min.js"></script>
+			<script src="ps-store/assets/js/browser.min.js"></script>
+			<script src="ps-store/assets/js/breakpoints.min.js"></script>
+			<script src="ps-store/assets/js/util.js"></script>
+			<script src="ps-store/assets/js/main.js"></script>
 
 	</body>
 </html>

@@ -10,13 +10,13 @@
     <meta name="author" content="">
     <!-- Favicon icon -->
     {{-- <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png"> --}}
-    <link rel="shortcut icon" href="images/logo.png" sizes="16x16" type="image/x-icon">
+    <link rel="shortcut icon" href="dashboard/images/logo.png" sizes="16x16" type="image/x-icon">
     <title>Ela - Bootstrap Admin Dashboard Template</title>
     <!-- Bootstrap Core CSS -->
-    <link href="css/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="dashboard/css/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
-    <link href="css/helper.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="dashboard/css/helper.css" rel="stylesheet">
+    <link href="dashboard/css/style.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:** -->
     <!--[if lt IE 9]>
@@ -96,15 +96,15 @@
                                     <div class="card-body">
                                         <div class="profiletimeline">
                                             <div class="sl-item">
-                                                <div class="sl-left"> <img src="images/users/avatar-1.jpg" alt="user" class="img-circle" /> </div>
+                                                <div class="sl-left"> <img src="dashboard/images/users/avatar-1.jpg" alt="user" class="img-circle" /> </div>
                                                 <div class="sl-right">
                                                     <div><a href="#" class="link">Michael Qin</a> <span class="sl-date">5 minutes ago</span>
                                                         <p>assign a new task <a href="#"> Design weblayout</a></p>
                                                         <div class="row">
-                                                            <div class="col-lg-3 col-md-6 m-b-20"><img src="images/big/img1.jpg" class="img-responsive radius" /></div>
-                                                            <div class="col-lg-3 col-md-6 m-b-20"><img src="images/big/img2.jpg" class="img-responsive radius" /></div>
-                                                            <div class="col-lg-3 col-md-6 m-b-20"><img src="images/big/img3.jpg" class="img-responsive radius" /></div>
-                                                            <div class="col-lg-3 col-md-6 m-b-20"><img src="images/big/img4.jpg" class="img-responsive radius" /></div>
+                                                            <div class="col-lg-3 col-md-6 m-b-20"><img src="dashboard/images/big/img1.jpg" class="img-responsive radius" /></div>
+                                                            <div class="col-lg-3 col-md-6 m-b-20"><img src="dashboard/images/big/img2.jpg" class="img-responsive radius" /></div>
+                                                            <div class="col-lg-3 col-md-6 m-b-20"><img src="dashboard/images/big/img3.jpg" class="img-responsive radius" /></div>
+                                                            <div class="col-lg-3 col-md-6 m-b-20"><img src="dashboard/images/big/img4.jpg" class="img-responsive radius" /></div>
                                                         </div>
                                                         <div class="like-comm"> <a href="javascript:void(0)" class="link m-r-10">2 comment</a> <a href="javascript:void(0)" class="link m-r-10"><i class="fa fa-heart text-danger"></i> 5 Love</a> </div>
                                                     </div>
@@ -112,11 +112,11 @@
                                             </div>
                                             <hr>
                                             <div class="sl-item">
-                                                <div class="sl-left"> <img src="images/users/avatar-2.jpg" alt="user" class="img-circle" /> </div>
+                                                <div class="sl-left"> <img src="dashboard/images/users/avatar-2.jpg" alt="user" class="img-circle" /> </div>
                                                 <div class="sl-right">
                                                     <div> <a href="#" class="link">Michael Qin</a> <span class="sl-date">5 minutes ago</span>
                                                         <div class="m-t-20 row">
-                                                            <div class="col-md-3 col-xs-12"><img src="images/big/img1.jpg" alt="user" class="img-responsive radius" /></div>
+                                                            <div class="col-md-3 col-xs-12"><img src="dashboard/images/big/img1.jpg" alt="user" class="img-responsive radius" /></div>
                                                             <div class="col-md-9 col-xs-12">
                                                                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. </p> <a href="#" class="btn btn-success"> Design weblayout</a></div>
                                                         </div>
@@ -126,7 +126,7 @@
                                             </div>
                                             <hr>
                                             <div class="sl-item">
-                                                <div class="sl-left"> <img src="images/users/avatar-3.jpg" alt="user" class="img-circle" /> </div>
+                                                <div class="sl-left"> <img src="dashboard/images/users/avatar-3.jpg" alt="user" class="img-circle" /> </div>
                                                 <div class="sl-right">
                                                     <div><a href="#" class="link">Michael Qin</a> <span class="sl-date">5 minutes ago</span>
                                                         <p class="m-t-10"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
@@ -137,7 +137,7 @@
                                             </div>
                                             <hr>
                                             <div class="sl-item">
-                                                <div class="sl-left"> <img src="images/users/avatar-4.jpg" alt="user" class="img-circle" /> </div>
+                                                <div class="sl-left"> <img src="dashboard/images/users/avatar-4.jpg" alt="user" class="img-circle" /> </div>
                                                 <div class="sl-right">
                                                     <div><a href="#" class="link">Michael Qin</a> <span class="sl-date">5 minutes ago</span>
                                                         <blockquote class="m-t-10">
@@ -267,18 +267,18 @@
     </div>
     <!-- End Wrapper -->
     <!-- All Jquery -->
-    <script src="js/lib/jquery/jquery.min.js"></script>
+    <script src="dashboard/js/lib/jquery/jquery.min.js"></script>
     <!-- Bootstrap tether Core JavaScript -->
-    <script src="js/lib/bootstrap/js/popper.min.js"></script>
-    <script src="js/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="dashboard/js/lib/bootstrap/js/popper.min.js"></script>
+    <script src="dashboard/js/lib/bootstrap/js/bootstrap.min.js"></script>
     <!-- slimscrollbar scrollbar JavaScript -->
-    <script src="js/jquery.slimscroll.js"></script>
+    <script src="dashboard/js/jquery.slimscroll.js"></script>
     <!--Menu sidebar -->
-    <script src="js/sidebarmenu.js"></script>
+    <script src="dashboard/js/sidebarmenu.js"></script>
     <!--stickey kit -->
-    <script src="js/lib/sticky-kit-master/dist/sticky-kit.min.js"></script>
+    <script src="dashboard/js/lib/sticky-kit-master/dist/sticky-kit.min.js"></script>
     <!--Custom JavaScript -->
-    <script src="js/custom.min.js"></script>
+    <script src="dashboard/js/custom.min.js"></script>
     @endsection
 
 </body>

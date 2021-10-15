@@ -16,7 +16,16 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head> --}}
+    <head>
+		<title>Landed by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="ps-store/assets/css/main.css" />
 
+        <link rel="shortcut icon" href="ps-store/images/logo.png" type="image/x-icon">
+
+    <noscript><link rel="stylesheet" href="ps-store/assets/css/noscript.css" /></noscript>
+	</head>
 
 	<body class="is-preload">
         @section('header')
@@ -64,7 +73,7 @@
 
 								<!-- Content -->
 									<section id="content">
-										<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
+										<a href="#" class="image fit"><img src="ps-store/images/pic06.jpg" alt="" /></a>
 										<h3>Dolore Amet Consequat</h3>
 										<p>Aliquam massa urna, imperdiet sit amet mi non, bibendum euismod est. Curabitur mi justo, tincidunt vel eros ullamcorper, porta cursus justo. Cras vel neque eros. Vestibulum diam quam, mollis at magna consectetur non, malesuada quis augue. Morbi tincidunt pretium interdum est. Curabitur mi justo, tincidunt vel eros ullamcorper, porta cursus justo. Cras vel neque eros. Vestibulum diam.</p>
 										<p>Vestibulum diam quam, mollis at consectetur non, malesuada quis augue. Morbi tincidunt pretium interdum. Morbi mattis elementum orci, nec dictum porta cursus justo. Quisque ultricies lorem in ligula condimentum, et egestas turpis sagittis. Cras ac nunc urna. Nullam eget lobortis purus. Phasellus vitae tortor non est placerat tristique.</p>
@@ -95,7 +104,7 @@
 										</section>
 										<hr />
 										<section>
-											<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+											<a href="#" class="image fit"><img src="ps-store/images/pic07.jpg" alt="" /></a>
 											<h3>Amet Lorem Tempus</h3>
 											<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
 											<footer>
