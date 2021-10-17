@@ -39,8 +39,8 @@ class DashboardController extends Controller
         return view('dashboard/form-editor');
     }
          // for dashboard table-datatable page
-    public function tabledatatable(){
-        return view('dashboard/table-datatable');
+    public function reservationstable(){
+        return view('dashboard.reservations-table');
     }
          // for dashboard page-login page
     public function pagelogin(){

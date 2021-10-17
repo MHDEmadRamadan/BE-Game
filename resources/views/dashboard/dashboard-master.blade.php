@@ -83,8 +83,7 @@
                 </li>
                 <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-table"></i><span class="hide-menu">Tables</span></a>
                     <ul aria-expanded="false" class="collapse">
-                        <li><a href="table-bootstrap.html">Basic Tables</a></li>
-                        <li><a href="/tabledatatable">Data Tables</a></li>
+                        <li><a href="/reservationstable">Reservations Table</a></li>
                     </ul>
                 </li>
                 <li class="nav-label">EXTRA</li>

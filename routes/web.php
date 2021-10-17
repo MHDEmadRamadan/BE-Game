@@ -49,7 +49,7 @@ Route::get('/adminformvalidation', 'DashboardController@formvalidation');
          // for dashboard form-editor page
 Route::get('/adminformeditor', 'DashboardController@formeditor');
          // for dashboard table-datatable page
-Route::get('/tabledatatable', 'DashboardController@tabledatatable');
+Route::get('/reservationstable', 'DashboardController@reservationstable');
           // for dashboard page-login page
 // Route::get('/pagelogin', 'DashboardController@pagelogin');
           // for dashboard page-register page
