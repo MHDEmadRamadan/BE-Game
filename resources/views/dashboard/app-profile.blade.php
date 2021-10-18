@@ -29,7 +29,8 @@
     <!-- Preloader - style you can find in spinners.css -->
     <div class="preloader">
         <svg class="circular" viewBox="25 25 50 50">
-			<circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" />
+        </svg>
     </div>
     <!-- Main wrapper  -->
     <div id="main-wrapper">
@@ -42,7 +43,8 @@
             <!-- Bread crumb -->
             <div class="row page-titles">
                 <div class="col-md-5 align-self-center">
-                    <h3 class="text-primary">Dashboard</h3> </div>
+                    <h3 class="text-primary">Dashboard</h3>
+                </div>
                 <div class="col-md-7 align-self-center">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
@@ -118,7 +120,8 @@
                                                         <div class="m-t-20 row">
                                                             <div class="col-md-3 col-xs-12"><img src="dashboard/images/big/img1.jpg" alt="user" class="img-responsive radius" /></div>
                                                             <div class="col-md-9 col-xs-12">
-                                                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. </p> <a href="#" class="btn btn-success"> Design weblayout</a></div>
+                                                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. </p> <a href="#" class="btn btn-success"> Design weblayout</a>
+                                                            </div>
                                                         </div>
                                                         <div class="like-comm m-t-20"> <a href="javascript:void(0)" class="link m-r-10">2 comment</a> <a href="javascript:void(0)" class="link m-r-10"><i class="fa fa-heart text-danger"></i> 5 Love</a> </div>
                                                     </div>
@@ -234,12 +237,12 @@
                                                 <label class="col-sm-12">Select Country</label>
                                                 <div class="col-sm-12">
                                                     <select class="form-control form-control-line">
-                                                                                    <option>London</option>
-                                                                                    <option>India</option>
-                                                                                    <option>Usa</option>
-                                                                                    <option>Canada</option>
-                                                                                    <option>Thailand</option>
-                                                                                </select>
+                                                        <option>London</option>
+                                                        <option>India</option>
+                                                        <option>Usa</option>
+                                                        <option>Canada</option>
+                                                        <option>Thailand</option>
+                                                    </select>
                                                 </div>
                                             </div>
                                             <div class="form-group">

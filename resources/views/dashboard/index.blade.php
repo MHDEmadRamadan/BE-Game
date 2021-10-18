@@ -37,7 +37,8 @@
     <!-- Preloader - style you can find in spinners.css -->
     <div class="preloader">
         <svg class="circular" viewBox="25 25 50 50">
-			<circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" />
+        </svg>
     </div>
     <!-- Main wrapper  -->
     <div id="main-wrapper">
@@ -51,7 +52,8 @@
             <!-- Bread crumb -->
             <div class="row page-titles">
                 <div class="col-md-5 align-self-center">
-                    <h3 class="text-primary">Dashboard</h3> </div>
+                    <h3 class="text-primary">Dashboard</h3>
+                </div>
                 <div class="col-md-7 align-self-center">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="javascript:void(0) /adminIndex">Home</a></li>
@@ -155,7 +157,7 @@
                                     <div role="progressbar" style="width: 65%; height:8px;" class="progress-bar bg-warning wow animated progress-animated"> <span class="sr-only">60% Complete</span> </div>
                                 </div>
 
-								<p class="m-t-30 f-w-600">android<span class="pull-right">65%</span></p>
+                                <p class="m-t-30 f-w-600">android<span class="pull-right">65%</span></p>
                                 <div class="progress m-b-30">
                                     <div role="progressbar" style="width: 65%; height:8px;" class="progress-bar bg-success wow animated progress-animated"> <span class="sr-only">60% Complete</span> </div>
                                 </div>
@@ -165,7 +167,7 @@
                     <!-- column -->
                 </div>
                 <div class="row">
-					<div class="col-lg-3">
+                    <div class="col-lg-3">
                         <div class="card bg-dark">
                             <div class="testimonial-widget-one p-17">
                                 <div class="testimonial-widget-one owl-carousel owl-theme">
@@ -176,7 +178,7 @@
                                             <div class="testimonial-author-position">Founder-Ceo. Dell Corp</div>
 
                                             <div class="testimonial-text">
-                                                <i class="fa fa-quote-left"></i>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .
+                                                <i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .
                                                 <i class="fa fa-quote-right"></i>
                                             </div>
                                         </div>
@@ -188,7 +190,7 @@
                                             <div class="testimonial-author-position">Founder-Ceo. Dell Corp</div>
 
                                             <div class="testimonial-text">
-                                                <i class="fa fa-quote-left"></i>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .
+                                                <i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .
                                                 <i class="fa fa-quote-right"></i>
                                             </div>
                                         </div>
@@ -200,7 +202,7 @@
                                             <div class="testimonial-author-position">Founder-Ceo. Dell Corp</div>
 
                                             <div class="testimonial-text">
-                                                <i class="fa fa-quote-left"></i>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .
+                                                <i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .
                                                 <i class="fa fa-quote-right"></i>
                                             </div>
                                         </div>
@@ -211,8 +213,8 @@
                                             <div class="testimonial-author">TYRION LANNISTER</div>
                                             <div class="testimonial-author-position">Founder-Ceo. Dell Corp</div>
 
-                                           <div class="testimonial-text">
-                                                <i class="fa fa-quote-left"></i>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .
+                                            <div class="testimonial-text">
+                                                <i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .
                                                 <i class="fa fa-quote-right"></i>
                                             </div>
                                         </div>
@@ -224,7 +226,7 @@
                                             <div class="testimonial-author-position">Founder-Ceo. Dell Corp</div>
 
                                             <div class="testimonial-text">
-                                                <i class="fa fa-quote-left"></i>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .
+                                                <i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .
                                                 <i class="fa fa-quote-right"></i>
                                             </div>
                                         </div>
@@ -236,7 +238,7 @@
                                             <div class="testimonial-author-position">Founder-Ceo. Dell Corp</div>
 
                                             <div class="testimonial-text">
-                                                <i class="fa fa-quote-left"></i>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .
+                                                <i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .
                                                 <i class="fa fa-quote-right"></i>
                                             </div>
                                         </div>
@@ -318,74 +320,74 @@
 
 
                 <div class="row">
-					<div class="col-lg-8">
-						<div class="row">
-						<div class="col-lg-6">
-							<div class="card">
-								<div class="card-title">
-									<h4>Message </h4>
-								</div>
-								<div class="recent-comment">
-									<div class="media">
-										<div class="media-left">
-											<a href="#"><img alt="..." src="dashboard/images/avatar/1.jpg" class="media-object"></a>
-										</div>
-										<div class="media-body">
-											<h4 class="media-heading">john doe</h4>
-											<p>Cras sit amet nibh libero, in gravida nulla. </p>
-											<p class="comment-date">October 21, 2018</p>
-										</div>
-									</div>
-									<div class="media">
-										<div class="media-left">
-											<a href="#"><img alt="..." src="dashboard/images/avatar/1.jpg" class="media-object"></a>
-										</div>
-										<div class="media-body">
-											<h4 class="media-heading">john doe</h4>
-											<p>Cras sit amet nibh libero, in gravida nulla. </p>
-											<p class="comment-date">October 21, 2018</p>
-										</div>
-									</div>
+                    <div class="col-lg-8">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <div class="card-title">
+                                        <h4>Message </h4>
+                                    </div>
+                                    <div class="recent-comment">
+                                        <div class="media">
+                                            <div class="media-left">
+                                                <a href="#"><img alt="..." src="dashboard/images/avatar/1.jpg" class="media-object"></a>
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="media-heading">john doe</h4>
+                                                <p>Cras sit amet nibh libero, in gravida nulla. </p>
+                                                <p class="comment-date">October 21, 2018</p>
+                                            </div>
+                                        </div>
+                                        <div class="media">
+                                            <div class="media-left">
+                                                <a href="#"><img alt="..." src="dashboard/images/avatar/1.jpg" class="media-object"></a>
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="media-heading">john doe</h4>
+                                                <p>Cras sit amet nibh libero, in gravida nulla. </p>
+                                                <p class="comment-date">October 21, 2018</p>
+                                            </div>
+                                        </div>
 
-									<div class="media">
-										<div class="media-left">
-											<a href="#"><img alt="..." src="dashboard/images/avatar/1.jpg" class="media-object"></a>
-										</div>
-										<div class="media-body">
-											<h4 class="media-heading">john doe</h4>
-											<p>Cras sit amet nibh libero, in gravida nulla. </p>
-											<p class="comment-date">October 21, 2018</p>
-										</div>
-									</div>
+                                        <div class="media">
+                                            <div class="media-left">
+                                                <a href="#"><img alt="..." src="dashboard/images/avatar/1.jpg" class="media-object"></a>
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="media-heading">john doe</h4>
+                                                <p>Cras sit amet nibh libero, in gravida nulla. </p>
+                                                <p class="comment-date">October 21, 2018</p>
+                                            </div>
+                                        </div>
 
-									<div class="media no-border">
-										<div class="media-left">
-											<a href="#"><img alt="..." src="dashboard/images/avatar/1.jpg" class="media-object"></a>
-										</div>
-										<div class="media-body">
-											<h4 class="media-heading">Mr. Michael</h4>
-											<p>Cras sit amet nibh libero, in gravida nulla. </p>
-											<div class="comment-date">October 21, 2018</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- /# card -->
-						</div>
-						<!-- /# column -->
-						<div class="col-lg-6">
-							<div class="card">
-								<div class="card-body">
-									<div class="year-calendar"></div>
-								</div>
-							</div>
-						</div>
+                                        <div class="media no-border">
+                                            <div class="media-left">
+                                                <a href="#"><img alt="..." src="dashboard/images/avatar/1.jpg" class="media-object"></a>
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="media-heading">Mr. Michael</h4>
+                                                <p>Cras sit amet nibh libero, in gravida nulla. </p>
+                                                <div class="comment-date">October 21, 2018</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /# card -->
+                            </div>
+                            <!-- /# column -->
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="year-calendar"></div>
+                                    </div>
+                                </div>
+                            </div>
 
 
-						</div>
-					</div>
+                        </div>
+                    </div>
 
-				    <div class="col-lg-4">
+                    <div class="col-lg-4">
                         <div class="card">
                             <div class="card-body">
                                 <h4 class="card-title">Todo</h4>
@@ -396,34 +398,34 @@
                                                 <ul>
                                                     <li>
                                                         <label>
-															<input type="checkbox"><i class="bg-primary"></i><span>Build an angular app</span>
-															<a href='#' class="ti-close"></a>
-														</label>
+                                                            <input type="checkbox"><i class="bg-primary"></i><span>Build an angular app</span>
+                                                            <a href='#' class="ti-close"></a>
+                                                        </label>
                                                     </li>
                                                     <li>
                                                         <label>
-															<input type="checkbox" checked><i class="bg-success"></i><span>Creating component page</span>
-															<a href='#' class="ti-close"></a>
-														</label>
+                                                            <input type="checkbox" checked><i class="bg-success"></i><span>Creating component page</span>
+                                                            <a href='#' class="ti-close"></a>
+                                                        </label>
                                                     </li>
                                                     <li>
                                                         <label>
-															<input type="checkbox" checked><i class="bg-warning"></i><span>Follow back those who follow you</span>
-															<a href='#' class="ti-close"></a>
-														</label>
+                                                            <input type="checkbox" checked><i class="bg-warning"></i><span>Follow back those who follow you</span>
+                                                            <a href='#' class="ti-close"></a>
+                                                        </label>
                                                     </li>
                                                     <li>
                                                         <label>
-															<input type="checkbox" checked><i class="bg-danger"></i><span>Design One page theme</span>
-															<a href='#' class="ti-close"></a>
-														</label>
+                                                            <input type="checkbox" checked><i class="bg-danger"></i><span>Design One page theme</span>
+                                                            <a href='#' class="ti-close"></a>
+                                                        </label>
                                                     </li>
 
                                                     <li>
                                                         <label>
-															<input type="checkbox" checked><i class="bg-success"></i><span>Creating component page</span>
-															<a href='#' class="ti-close"></a>
-														</label>
+                                                            <input type="checkbox" checked><i class="bg-success"></i><span>Creating component page</span>
+                                                            <a href='#' class="ti-close"></a>
+                                                        </label>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -463,12 +465,12 @@
 
 
     <!-- Amchart -->
-     <script src="dashboard/js/lib/morris-chart/raphael-min.js"></script>
+    <script src="dashboard/js/lib/morris-chart/raphael-min.js"></script>
     <script src="dashboard/js/lib/morris-chart/morris.js"></script>
     <script src="dashboard/js/lib/morris-chart/dashboard1-init.js"></script>
 
 
-	<script src="dashboard/js/lib/calendar-2/moment.latest.min.js"></script>
+    <script src="dashboard/js/lib/calendar-2/moment.latest.min.js"></script>
     <!-- scripit init-->
     <script src="dashboard/js/lib/calendar-2/semantic.ui.min.js"></script>
     <!-- scripit init-->

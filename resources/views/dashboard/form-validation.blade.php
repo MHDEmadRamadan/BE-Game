@@ -29,7 +29,8 @@
     <!-- Preloader - style you can find in spinners.css -->
     <div class="preloader">
         <svg class="circular" viewBox="25 25 50 50">
-			<circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" />
+        </svg>
     </div>
     <!-- Main wrapper  -->
     <div id="main-wrapper">
@@ -42,7 +43,8 @@
             <!-- Bread crumb -->
             <div class="row page-titles">
                 <div class="col-md-5 align-self-center">
-                    <h3 class="text-primary">Dashboard</h3> </div>
+                    <h3 class="text-primary">Dashboard</h3>
+                </div>
                 <div class="col-md-7 align-self-center">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
@@ -149,9 +151,9 @@
                                             <label class="col-lg-4 col-form-label"><a data-toggle="modal" data-target="#modal-terms" href="#">Terms &amp; Conditions</a> <span class="text-danger">*</span></label>
                                             <div class="col-lg-8">
                                                 <label class="css-control css-control-primary css-checkbox" for="val-terms">
-                                                                                        <input type="checkbox" class="css-control-input" id="val-terms" name="val-terms" value="1">
-                                                                                        <span class="css-control-indicator"></span> I agree to the terms
-                                                                                    </label>
+                                                    <input type="checkbox" class="css-control-input" id="val-terms" name="val-terms" value="1">
+                                                    <span class="css-control-indicator"></span> I agree to the terms
+                                                </label>
                                             </div>
                                         </div>
                                         <div class="form-group row">

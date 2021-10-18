@@ -29,7 +29,8 @@
     <!-- Preloader - style you can find in spinners.css -->
     <div class="preloader">
         <svg class="circular" viewBox="25 25 50 50">
-			<circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" />
+        </svg>
     </div>
     <!-- Main wrapper  -->
     <div id="main-wrapper">
@@ -41,7 +42,8 @@
             <!-- Bread crumb -->
             <div class="row page-titles">
                 <div class="col-md-5 align-self-center">
-                    <h3 class="text-primary">Dashboard</h3> </div>
+                    <h3 class="text-primary">Dashboard</h3>
+                </div>
                 <div class="col-md-7 align-self-center">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
@@ -69,14 +71,16 @@
                                                 <div class="form-group">
                                                     <label class="control-label">First Name</label>
                                                     <input type="text" id="firstName" class="form-control" placeholder="John doe">
-                                                    <small class="form-control-feedback"> This is inline help </small> </div>
+                                                    <small class="form-control-feedback"> This is inline help </small>
+                                                </div>
                                             </div>
                                             <!--/span-->
                                             <div class="col-md-6">
                                                 <div class="form-group has-danger">
                                                     <label class="control-label">Last Name</label>
                                                     <input type="text" id="lastName" class="form-control form-control-danger" placeholder="12n">
-                                                    <small class="form-control-feedback"> This field has error. </small> </div>
+                                                    <small class="form-control-feedback"> This field has error. </small>
+                                                </div>
                                             </div>
                                             <!--/span-->
                                         </div>
@@ -89,7 +93,8 @@
                                                         <option value="">Male</option>
                                                         <option value="">Female</option>
                                                     </select>
-                                                    <small class="form-control-feedback"> Select your gender </small> </div>
+                                                    <small class="form-control-feedback"> Select your gender </small>
+                                                </div>
                                             </div>
                                             <!--/span-->
                                             <div class="col-md-6">
@@ -208,7 +213,8 @@
                                                     <label class="control-label text-right col-md-3">First Name</label>
                                                     <div class="col-md-9">
                                                         <input type="text" class="form-control" placeholder="John doe">
-                                                        <small class="form-control-feedback"> This is inline help </small> </div>
+                                                        <small class="form-control-feedback"> This is inline help </small>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <!--/span-->
@@ -217,7 +223,8 @@
                                                     <label class="control-label text-right col-md-3">Last Name</label>
                                                     <div class="col-md-9">
                                                         <input type="text" class="form-control form-control-danger" placeholder="12n">
-                                                        <small class="form-control-feedback"> This field has error. </small> </div>
+                                                        <small class="form-control-feedback"> This field has error. </small>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <!--/span-->
@@ -232,7 +239,8 @@
                                                             <option value="">Male</option>
                                                             <option value="">Female</option>
                                                         </select>
-                                                        <small class="form-control-feedback"> Select your gender. </small> </div>
+                                                        <small class="form-control-feedback"> Select your gender. </small>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <!--/span-->
@@ -763,13 +771,15 @@
                                             <label class="control-label text-right col-md-3">First Name</label>
                                             <div class="col-md-9">
                                                 <input type="text" placeholder="small" class="form-control">
-                                                <small class="form-control-feedback"> This is inline help </small> </div>
+                                                <small class="form-control-feedback"> This is inline help </small>
+                                            </div>
                                         </div>
                                         <div class="form-group row">
                                             <label class="control-label text-right col-md-3">Last Name</label>
                                             <div class="col-md-9">
                                                 <input type="text" placeholder="medium" class="form-control">
-                                                <small class="form-control-feedback"> This is inline help </small> </div>
+                                                <small class="form-control-feedback"> This is inline help </small>
+                                            </div>
                                         </div>
                                         <div class="form-group row">
                                             <label class="control-label text-right col-md-3">Gender</label>

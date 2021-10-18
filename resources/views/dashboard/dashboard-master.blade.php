@@ -1,5 +1,3 @@
-
-
 <!-- header header  -->
 <div class="header">
     <nav class="navbar top-navbar navbar-expand-md navbar-light">
@@ -29,7 +27,8 @@
                 <!-- Search -->
                 <li class="nav-item hidden-sm-down search-box"> <a class="nav-link hidden-sm-down text-muted  " href="javascript:void(0)"><i class="ti-search"></i></a>
                     <form class="app-search">
-                        <input type="text" class="form-control" placeholder="Search here"> <a class="srh-btn"><i class="ti-close"></i></a> </form>
+                        <input type="text" class="form-control" placeholder="Search here"> <a class="srh-btn"><i class="ti-close"></i></a>
+                    </form>
                 </li>
                 <!-- Profile -->
                 <li class="nav-item dropdown">
@@ -45,7 +44,7 @@
         </div>
     </nav>
 </div>
-         <!-- End header header -->
+<!-- End header header -->
 
 
 <!-- Left Sidebar  -->
@@ -115,3 +114,6 @@
 <!-- End Left Sidebar  -->
 
 @yield('body')
+<!-- footer -->
+<footer class="footer"> © 2021 All rights reserved. Template designed by <a href="#">Emad And Baraa</a></footer>
+<!-- End footer -->

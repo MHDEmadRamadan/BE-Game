@@ -29,7 +29,8 @@
     <!-- Preloader - style you can find in spinners.css -->
     <div class="preloader">
         <svg class="circular" viewBox="25 25 50 50">
-			<circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" />
+        </svg>
     </div>
     <!-- Main wrapper  -->
     <div id="main-wrapper">
@@ -42,7 +43,8 @@
             <!-- Bread crumb -->
             <div class="row page-titles">
                 <div class="col-md-5 align-self-center">
-                    <h3 class="text-primary">Dashboard</h3> </div>
+                    <h3 class="text-primary">Dashboard</h3>
+                </div>
                 <div class="col-md-7 align-self-center">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
@@ -94,9 +96,9 @@
                                             </div>
                                             <div class="btn-group">
                                                 <button type="button" class="btn btn-light dropdown-toggle waves-effect" data-toggle="dropdown" aria-expanded="false">
-                                                                                    <i class="mdi mdi-folder font-18 vertical-middle"></i>
-                                                                                    <b class="caret m-l-5"></b>
-                                                                                </button>
+                                                    <i class="mdi mdi-folder font-18 vertical-middle"></i>
+                                                    <b class="caret m-l-5"></b>
+                                                </button>
                                                 <div class="dropdown-menu">
                                                     <span class="dropdown-header">Move to</span>
                                                     <a class="dropdown-item" href="javascript: void(0);">Social</a>
@@ -107,9 +109,9 @@
                                             </div>
                                             <div class="btn-group">
                                                 <button type="button" class="btn btn-light dropdown-toggle waves-effect" data-toggle="dropdown" aria-expanded="false">
-                                                                                    <i class="mdi mdi-label font-18 vertical-middle"></i>
-                                                                                    <b class="caret m-l-5"></b>
-                                                                                </button>
+                                                    <i class="mdi mdi-label font-18 vertical-middle"></i>
+                                                    <b class="caret m-l-5"></b>
+                                                </button>
                                                 <div class="dropdown-menu">
                                                     <span class="dropdown-header">Label as:</span>
                                                     <a class="dropdown-item" href="javascript: void(0);">Updates</a>
@@ -121,9 +123,9 @@
 
                                             <div class="btn-group">
                                                 <button type="button" class="btn btn-light dropdown-toggle waves-effect" data-toggle="dropdown" aria-expanded="false">
-                                                                                    More
-                                                                                    <span class="caret m-l-5"></span>
-                                                                                </button>
+                                                    More
+                                                    <span class="caret m-l-5"></span>
+                                                </button>
                                                 <div class="dropdown-menu">
                                                     <span class="dropdown-header">More Option :</span>
                                                     <a class="dropdown-item" href="javascript: void(0);">Mark as Unread</a>
@@ -137,7 +139,7 @@
                                         <div class="mt-4">
                                             <h5>Hi Bro, How are you?</h5>
 
-                                            <hr/>
+                                            <hr />
 
                                             <div class="media mb-4 mt-1">
                                                 <img class="d-flex mr-3 rounded-circle thumb-sm" src="dashboard/images/users/avatar-2.jpg" alt="Generic placeholder image">
@@ -157,7 +159,7 @@
                                                 laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper
                                                 libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar,</p>
 
-                                            <hr/>
+                                            <hr />
 
                                             <h6> <i class="fa fa-paperclip mb-2"></i> Attachments <span>(3)</span> </h6>
 
