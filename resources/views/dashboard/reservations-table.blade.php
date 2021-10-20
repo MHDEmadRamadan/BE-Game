@@ -85,7 +85,7 @@
                                                 <td>{{$Reservation ->number_of_gamepad}}</td>
                                                 <td>{{$Reservation ->Reservation_price}}</td>
                                                 <td>
-                                                    <a href="عماد هي الك" class="btn btn-outline-warning">Edit</a>
+                                                    <a href="/Edite/appointment/{{$Reservation -> Reservation_id}}" class="btn btn-outline-warning">Edit</a>
                                                     <a href="/reservationstable/delete/{{$Reservation ->Reservation_id}}" class="btn btn-outline-danger">Delete</a>
                                                 </td>
                                             </tr>

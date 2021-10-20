@@ -46,86 +46,26 @@
           <label class='label' for='login'>Reservation start</label>
           <input name="start_date" type="datetime-local" id="start-date" class="input100" value="2017-06-13T13:00">
         </p>
-        <p class='field half required'>
-          <label class='label' for='password'>Password</label>
-          <input class='text-input' id='password' name='password' required type='password'>
+        <p class='field half required error'>
+          <label class='label' for='login'>Reservation End</label>
+          <input name="end_date" type="time" id="end-date" class="input100" value="">
         </p>
-        <div class='field'>
-          <label class='label'>Sport?</label>
-          <ul class='checkboxes'>
-            <li class='checkbox'>
-              <input class='checkbox-input' id='choice-0' name='choice' type='checkbox' value='0'>
-              <label class='checkbox-label' for='choice-0'>Football</label>
-            </li>
-            <li class='checkbox'>
-              <input class='checkbox-input' id='choice-1' name='choice' type='checkbox' value='1'>
-              <label class='checkbox-label' for='choice-1'>Basketball</label>
-            </li>
-            <li class='checkbox'>
-              <input class='checkbox-input' id='choice-2' name='choice' type='checkbox' value='2'>
-              <label class='checkbox-label' for='choice-2'>Volleyball</label>
-            </li>
-            <li class='checkbox'>
-              <input class='checkbox-input' id='choice-3' name='choice' type='checkbox' value='3'>
-              <label class='checkbox-label' for='choice-3'>Golf</label>
-            </li>
-            <li class='checkbox'>
-              <input class='checkbox-input' id='choice-4' name='choice' type='checkbox' value='4'>
-              <label class='checkbox-label' for='choice-4'>Swimming</label>
-            </li>
-          </ul>
-        </div>
-        <div class='field'>
-          <label class='label'>Favourite JS framework</label>
-          <ul class='options'>
-            <li class='option'>
-              <input class='option-input' id='option-0' name='option' type='radio' value='0'>
-              <label class='option-label' for='option-0'>React</label>
-            </li>
-            <li class='option'>
-              <input class='option-input' id='option-1' name='option' type='radio' value='1'>
-              <label class='option-label' for='option-1'>Vue</label>
-            </li>
-            <li class='option'>
-              <input class='option-input' id='option-2' name='option' type='radio' value='2'>
-              <label class='option-label' for='option-2'>Angular</label>
-            </li>
-            <li class='option'>
-              <input class='option-input' id='option-3' name='option' type='radio' value='3'>
-              <label class='option-label' for='option-3'>Riot</label>
-            </li>
-            <li class='option'>
-              <input class='option-input' id='option-4' name='option' type='radio' value='4'>
-              <label class='option-label' for='option-4'>Polymer</label>
-            </li>
-            <li class='option'>
-              <input class='option-input' id='option-5' name='option' type='radio' value='5'>
-              <label class='option-label' for='option-5'>Ember</label>
-            </li>
-            <li class='option'>
-              <input class='option-input' id='option-6' name='option' type='radio' value='6'>
-              <label class='option-label' for='option-6'>Meteor</label>
-            </li>
-            <li class='option'>
-              <input class='option-input' id='option-7' name='option' type='radio' value='7'>
-              <label class='option-label' for='option-7'>Knockout</label>
-            </li>
-          </ul>
-        </div>
-        <p class='field'>
-          <label class='label' for='about'>About</label>
-          <textarea class='textarea' cols='50' id='about' name='about' rows='4'></textarea>
+        
+        <p class='field required half'>
+          <label class='label' for='number_of_devices'>Enter many devises</label>
+          <input class='text-input' id='number_of_devices' name='number_of_devices' type='number'>
         </p>
-        <p class='field half'>
-          <label class='label' for='select'>Position</label>
-          <select class='select' id='select'>
-            <option selected value=''></option>
-            <option value='ceo'>CEO</option>
-            <option value='front-end'>Front-end developer</option>
-            <option value='back-end'>Back-end developer</option>
-          </select>
+        
+        <p class='field required half'>
+          <label class='label' for='number_of_handps4'>Enter number of hand ps4</label>
+          <input class='text-input' id='number_of_handps4' name='number_of_handps4' type='number'>
         </p>
-        <p class='field half'>
+
+
+
+
+
+        <p class='field '>
           <input class='button' type='submit' value='Send'>
         </p>
       </form>

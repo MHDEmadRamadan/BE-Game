@@ -104,4 +104,7 @@ Route::get('/reservationstable', 'ReservationsController@browse');
 Route::get('/reservationstable/delete/{id}', 'ReservationsController@delete');
 
 // for model reservation Add Appointment 
-      Route::post('/reservation/appointment', 'ReservationsController@AddAppointment');
+      Route::post('/add/appointment', 'ReservationsController@AddAppointment');
+
+     // for model reservation Edite Appointment 
+//      Route::post('/Edite/appointment/{id}', 'ReservationsController@EditeAppointment');

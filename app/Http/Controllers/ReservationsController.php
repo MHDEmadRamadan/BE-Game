@@ -8,12 +8,15 @@ use App\Reservation;
 
 class ReservationsController extends Controller
 {
+
     // for dashboard table-datatable page
     public function browse()
     {
         $res = Reservation::all();
         return view('dashboard.reservations-table', compact('res'));
     }
+
+
     // for delete reservation
     public function delete($id_del)
     {
@@ -30,10 +33,15 @@ public function AddAppointment(Request $App){
     // $new_appointment->last_name = $App->last_name;
     // $new_appointment->email = $App->email;
     // $new_appointment->phone = $App->phone;
-    // $new_appointment->start_date = $App->start_date;
+    $new_appointment->Reservation_start = $App->Reservation_start;
+    $new_appointment->Reservation_end = $App->Reservation_end;
     $new_appointment->number_of_devices = $App->number_of_devices;
+    $new_appointment->number_of_gamepad = $App->number_of_gamepad;
     $new_appointment->save();
-
+    return back();
 }
+// public function EditeAppointment($id){
+//     return Reservation::find($id);
+// }
 
 }
