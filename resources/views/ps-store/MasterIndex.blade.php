@@ -19,29 +19,30 @@
 		<div id="page-wrapper">
 
 			<!-- Header -->
-				<header id="header">
-					<h1 id="logo"><a href="/">Landed</a></h1>
-					<nav id="nav">
-						<ul>
-							<li><a href="/">Home</a></li>
-							<li>
-								<a href="/left-sidebar">Layouts</a>
-								<ul>
-									<li><a href="/left-sidebar">Left Sidebar</a></li>
-									<li><a href="/right-sidebar">Right Sidebar</a></li>
-									<li><a href="/no-sidebar">No Sidebar</a></li>
-									<li>
-										<a href="#">Submenu</a>
-									</li>
-								</ul>
-							</li>
-							<li><a href="/elements">Elements</a></li>
-							<li><a href="/appointment">Appointment</a></li>
-							<li><a href="/pagelogin" class="button primary">Sign In</a></li>
-						</ul>
-					</nav>
-				</header>
-
+			<header id="header">
+				<h1 id="logo"><a href="/">Landed</a></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="/">Home</a></li>
+						<li>
+							<a href="/left-sidebar">Layouts</a>
+							<ul>
+								<li><a href="/left-sidebar">Left Sidebar</a></li>
+								<li><a href="/right-sidebar">Right Sidebar</a></li>
+								<li><a href="/no-sidebar">No Sidebar</a></li>
+								<li>
+									<a href="#">Submenu</a>
+								</li>
+							</ul>
+						</li>
+						<li><a href="/elements">Elements</a></li>
+						<li><a href="/appointment">Appointment</a></li>
+						<li><a href="/pagesignup" class="button primary">Sign Up</a></li>
+						<li><a href="/pagelogin" class="button primary">Log In</a></li>
+					</ul>
+				</nav>
+			</header>
+			
 @yield('header')
 
 

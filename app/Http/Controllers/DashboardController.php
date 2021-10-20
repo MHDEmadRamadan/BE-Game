@@ -3,7 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Reservation;
+use App\Http\Controllers\Controller;
+
 
 class DashboardController extends Controller
 {
@@ -47,20 +48,7 @@ class DashboardController extends Controller
     {
         return view('dashboard/form-editor');
     }
-    // for dashboard table-datatable page
-    public function browse()
-    {
-        $res = Reservation::all();
-        return view('dashboard.reservations-table', compact('res'));
-    }
-    // for delete reservation
-    public function delete($id_del)
-    {
-        $del_res = Reservation::where('Reservation_id', $id_del);
-        // $ress="select * from Reservation where Reservation_id=id_del ;";
-        $del_res->delete();
-        return back();
-    }
+    
 
     // for dashboard page-login page
     public function pagelogin()

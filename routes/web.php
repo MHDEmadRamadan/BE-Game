@@ -10,9 +10,10 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+
 use Illuminate\Support\Facades\Route;
 
-// client pages route
+// client pages Route
 
 // for ps-store index page
 Route::get('/', 'IndexController@index');
@@ -32,54 +33,77 @@ Route::get('/no-sidebar', 'IndexController@NoSidebar');
 // for ps-store Appointment page
 Route::get('/appointment', 'IndexController@Appointment');
 
-          // for page-login page
+// for ps-singup page
+Route::get('/pagesignup', 'IndexController@pagesignup');
+
+// for ps-login page
 Route::get('/pagelogin', 'IndexController@pagelogin');
 
 
 
-// admin pages route
 
-         // for dashboard index page
+
+// Customer Route
+// for singup
+Route::post('/cu-signup', 'CustomersController@signup');
+// for login
+Route::get('/cu-login', 'CustomersController@login');
+
+
+
+
+
+
+
+
+
+
+// admin pages Route
+
+// for dashboard index page
 Route::get('/adminindex', 'DashboardController@indexdash');
 
-         // for dashboard index1 page
+// for dashboard index1 page
 Route::get('/adminindex1', 'DashboardController@index1dash');
 
-         // for dashboard email-compose page
+// for dashboard email-compose page
 Route::get('/admincompose', 'DashboardController@emailcompose');
 
-         // for dashboard email-read page
+// for dashboard email-read page
 Route::get('/adminread', 'DashboardController@emailread');
 
-         // for dashboard email-inbox page
+// for dashboard email-inbox page
 Route::get('/adminemailinbox', 'DashboardController@emailinbox');
 
-         // for dashboard form-layout page
+// for dashboard form-layout page
 Route::get('/adminformlayout', 'DashboardController@formlayout');
 
-         // for dashboard form-validation page
+// for dashboard form-validation page
 Route::get('/adminformvalidation', 'DashboardController@formvalidation');
 
-         // for dashboard form-editor page
+// for dashboard form-editor page
 Route::get('/adminformeditor', 'DashboardController@formeditor');
 
-         // for dashboard datatable page and browse reservation
-Route::get('/reservationstable', 'DashboardController@browse');
-
-         // for delete reservation
-Route::get('/reservationstable/delete/{id}', 'DashboardController@delete');
-
-          // for dashboard page-login page
+// for dashboard page-login page
 // Route::get('/pagelogin', 'DashboardController@pagelogin');
 
-          // for dashboard page-register
+// for dashboard page-register
 // Route::get('/pageregister', 'DashboardController@pageregister');
 
-         // for dashboard page-invoice page
+// for dashboard page-invoice page
 // Route::get('/pageinvoice', 'DashboardController@pageinvoice');
 
-         // for dashboard app-profile page
+// for dashboard app-profile page
 Route::get('/appprofile', 'DashboardController@appprofile');
 
-         // for dashboard register admin page
+// for dashboard register admin page
 Route::get('/registeradmin', 'DashboardController@registeradmin');
+
+
+
+// Reservations Route
+// for dashboard datatable page and browse reservation
+Route::get('/reservationstable', 'ReservationsController@browse');
+
+// for delete reservation
+Route::get('/reservationstable/delete/{id}', 'ReservationsController@delete');
