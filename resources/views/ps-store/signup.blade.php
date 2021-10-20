@@ -38,8 +38,9 @@
 				<div class="wrap-login100 p-t-85 p-b-20">
 					<form class="login100-form validate-form" action="/cu-signup" method="POST">
 						<span class="login100-form-title p-b-70">
-							Hello
-
+							You'll Enjoing With US
+							
+							<br><br>
 							<div class="wrap-input100 validate-input m-b-50" data-validate="Enter username">
 								<input class="input100" type="name" name="name">
 								<span class="focus-input100" data-placeholder="Username"></span>
@@ -61,7 +62,7 @@
 							</div>
 
 							<div class="wrap-input100 validate-input m-t-85 m-b-35" data-validate="Upload Your Image">
-								<input class="input100" type="image" name="image">
+								<input class="input100" type="file" name="image">
 								<span data-placeholder="Your image"></span>
 							</div>
 
