@@ -34,7 +34,7 @@
 	<div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100 p-t-85 p-b-20">
-				<form class="login100-form validate-form">
+				<form class="login100-form validate-form" action="/cu-login" method="GET">
 					<span class="login100-form-title p-b-70">
 						Welcome
 					</span>
@@ -74,7 +74,7 @@
 								Don’t have an account?
 							</span>
 
-							<a href="#" class="txt2">
+							<a href="/pagesignup" class="txt2">
 								Sign up
 							</a>
 						</li>

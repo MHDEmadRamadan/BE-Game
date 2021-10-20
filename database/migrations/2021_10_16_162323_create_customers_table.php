@@ -18,9 +18,13 @@ class CreateCustomersTable extends Migration
             $table->char('customer_name');
             $table->char('customer_number');
             $table->string('customer_address');
+            $table->string('customer_password');
             $table->string('customer_image');
         });
     }
+
+
+
 
     /**
      * Reverse the migrations.

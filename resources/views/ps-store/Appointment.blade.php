@@ -42,7 +42,7 @@
     @section('header')
 	<div class="container-contact100">
 		<div class="wrap-contact100">
-			<form class="contact100-form validate-form" action="reservation/appointment" method="POST">
+			<form class="contact100-form validate-form" action="/reservation/appointment" method="POST">
 				@csrf
 				<span class="contact100-form-title">
 					Appointment
@@ -92,7 +92,6 @@
                 <label class="label-input100" for="phone">  Enter many devises  and Enter number of hand ps4 *</label>
 				<div class="wrap-input100 rs1-wrap-input100 validate-input " data-validate="Valid date is required:">
 					<input class="input100 " type="number" name="number_of_devices" min="0" placeholder="many devises">
-                    {{-- <input type="time"  class="input100" min="" value="00:00"/> --}}
                     <span class="focus-input100"></span>
 				</div>
 
