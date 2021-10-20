@@ -32,16 +32,6 @@ class DashboardController extends Controller
     {
         return view('dashboard/email-inbox');
     }
-    // for dashboard form-layout page
-    public function formlayout()
-    {
-        return view('dashboard/form-layout');
-    }
-    // for dashboard form-validation page
-    public function formvalidation()
-    {
-        return view('dashboard/form-validation');
-    }
     // for dashboard form-editor page
     public function formeditor()
     {

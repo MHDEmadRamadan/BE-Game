@@ -54,12 +54,6 @@ Route::get('/adminread', 'DashboardController@emailread');
          // for dashboard email-inbox page
 Route::get('/adminemailinbox', 'DashboardController@emailinbox');
 
-         // for dashboard form-layout page
-Route::get('/adminformlayout', 'DashboardController@formlayout');
-
-         // for dashboard form-validation page
-Route::get('/adminformvalidation', 'DashboardController@formvalidation');
-
          // for dashboard form-editor page
 Route::get('/adminformeditor', 'DashboardController@formeditor');
 
@@ -83,3 +77,7 @@ Route::get('/appprofile', 'DashboardController@appprofile');
 
          // for dashboard register admin page
 Route::get('/registeradmin', 'DashboardController@registeradmin');
+
+
+        // for model reservation Add Appointment 
+        Route::post('/reservation/appointment', 'ReservationsController@AddAppointment');

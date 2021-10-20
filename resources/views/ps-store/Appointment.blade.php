@@ -42,26 +42,27 @@
     @section('header')
 	<div class="container-contact100">
 		<div class="wrap-contact100">
-			<form class="contact100-form validate-form" action="" method="">
+			<form class="contact100-form validate-form" action="reservation/appointment" method="POST">
+				@csrf
 				<span class="contact100-form-title">
 					Appointment
 				</span>
 
 				<label class="label-input100" for="first-name">Tell us your name *</label>
 				<div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Type first name">
-					<input id="first-name" class="input100" type="text" name="first-name" placeholder="First name">
+					<input id="first-name" class="input100" type="text" name="first_name" placeholder="First name">
 					<span class="focus-input100"></span>
 				</div>
 				<div class="wrap-input100 rs2-wrap-input100 validate-input" data-validate="Type last name">
-					<input class="input100" type="text" name="last-name" placeholder="Last name">
+					<input class="input100" type="text" name="last_name" placeholder="Last name">
 					<span class="focus-input100"></span>
 				</div>
 
-				<label class="label-input100" for="email">Enter your ID *</label>
+				{{-- <label class="label-input100" for="email">Enter your ID *</label>
 				<div class="wrap-input100 validate-input" data-validate="Valid id is required: 00000000000">
 					<input id="id" class="input100" type="tel" name="id" placeholder="Eg. 00000000000">
 					<span class="focus-input100"></span>
-				</div>
+				</div> --}}
 
 				<label class="label-input100" for="email">Enter your email *</label>
 				<div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
@@ -77,20 +78,30 @@
 
                 <label class="label-input100" for="phone">Enter date Appointment *</label>
 				<div class="wrap-input100 validate-input" data-validate="Valid date is required:">
-                    <input  type="datetime-local" class="input100" value="2017-06-13T13:00">
+                    <input name="start_date" type="datetime-local" id="start-date" class="input100" value="2017-06-13T13:00">
                     <span class="focus-input100"></span>
 				</div>
 
-                <label class="label-input100" for="phone">Enter Hour Appointment and Enter many devises *</label>
-				<div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Valid date is required:">
-                    <input type="time" class="input100" value="00:00"/>
+				<label class="label-input100" for="phone">Enter end date Appointment *</label>
+				<div class="wrap-input100 validate-input" data-validate="Valid date is required:">
+                    <input name="start_date" type="time" id="end-date" class="input100" value="">
+                    <span class="focus-input100"></span>
+				</div>
+
+
+                <label class="label-input100" for="phone">  Enter many devises  and Enter number of hand ps4 *</label>
+				<div class="wrap-input100 rs1-wrap-input100 validate-input " data-validate="Valid date is required:">
+					<input class="input100 " type="number" name="number_of_devices" min="0" placeholder="many devises">
+                    {{-- <input type="time"  class="input100" min="" value="00:00"/> --}}
                     <span class="focus-input100"></span>
 				</div>
 
                 <div class="wrap-input100 rs2-wrap-input100 validate-input" data-validate="Valid devises is required:">
-					<input class="input100" type="number" name="last-name" min="0" placeholder="Enter many devises">
+					<input class="input100 " type="number" name="number_of_handps4" min="0" placeholder="number hand ps4">
 					<span class="focus-input100"></span>
 				</div>
+
+
 
 
 				{{-- <label class="label-input100" for="message">Message *</label>
@@ -99,19 +110,19 @@
 					<span class="focus-input100"></span>
 				</div> --}}
 
-                <div class="col-6 col-12-medium">
+                {{-- <div class="col-6 col-12-medium">
                     <input type="radio" id="priority-normal" name="priority">
                     <label for="priority-normal">2 persons</label>
                 </div>
                 <div class="col-6 col-12-medium ">
                     <input type="radio" id="priority-high" name="priority">
                     <label for="priority-high">4 persons</label>
-                </div>
+                </div> --}}
 
 
 				<div class="container-contact100-form-btn">
 					<button class="contact100-form-btn">
-						Send Message
+						Send
 					</button>
 				</div>
 			</form>

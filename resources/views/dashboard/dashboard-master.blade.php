@@ -75,8 +75,6 @@
 
                 <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-wpforms"></i><span class="hide-menu">Forms</span></a>
                     <ul aria-expanded="false" class="collapse">
-                        <li><a href="/adminformlayout">Form Layout</a></li>
-                        <li><a href="/adminformvalidation">Form Validation</a></li>
                         <li><a href="/adminformeditor">Editor</a></li>
                     </ul>
                 </li>
