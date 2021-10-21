@@ -26,6 +26,7 @@ class ReservationsController extends Controller
         return back();
     }
 
+        // for add reservation
 public function AddAppointment(Request $App){
     // return $App->first_name;
     $new_appointment = new Reservation;
@@ -40,8 +41,15 @@ public function AddAppointment(Request $App){
     $new_appointment->save();
     return back();
 }
-// public function EditeAppointment($id){
-//     return Reservation::find($id);
-// }
+
+    // for Edite reservation
+public function EditeAppointment($id){
+    $res = Reservation::all();
+    $Res_find = Reservation::find($id);
+    return view('dashboard/form-editor', compact('res' , 'Res_find'));
+
+    // $del_res = Reservation::where('Reservation_id', $id);
+    // return $del_res;
+}
 
 }

@@ -78,13 +78,14 @@
 
                 <label class="label-input100" for="Reservation_start">Enter date Appointment *</label>
 				<div class="wrap-input100 validate-input" data-validate="Valid date is required:">
-                    <input name="Reservation_start" type="datetime-local" id="Reservation_start" class="input100" value="2017-06-13T13:00">
+                    <input name="Reservation_start" type="datetime-local" id="Reservation_start" class="input100" value="">
                     <span class="focus-input100"></span>
 				</div>
 
 				<label class="label-input100" for="Reservation_end">Enter end date Appointment *</label>
 				<div class="wrap-input100 validate-input" data-validate="Valid date is required:">
-                    <input name="Reservation_end" type="time" id="Reservation_end" class="input100" value="">
+					<input name="Reservation_end" type="datetime-local" id="Reservation_end" class="input100" value="">
+					{{-- <input name="Reservation_end" type="time" id="Reservation_end" class="input100" value=""> --}}
                     <span class="focus-input100"></span>
 				</div>
 

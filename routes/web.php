@@ -71,10 +71,10 @@ Route::get('/adminread', 'DashboardController@emailread');
 Route::get('/adminemailinbox', 'DashboardController@emailinbox');
 
 // for dashboard form-layout page
-Route::get('/adminformlayout', 'DashboardController@formlayout');
+// Route::get('/adminformlayout', 'DashboardController@formlayout');
 
 // for dashboard form-validation page
-Route::get('/adminformvalidation', 'DashboardController@formvalidation');
+// Route::get('/adminformvalidation', 'DashboardController@formvalidation');
 
 // for dashboard form-editor page
 Route::get('/adminformeditor', 'DashboardController@formeditor');
@@ -107,4 +107,4 @@ Route::get('/reservationstable/delete/{id}', 'ReservationsController@delete');
       Route::post('/add/appointment', 'ReservationsController@AddAppointment');
 
      // for model reservation Edite Appointment 
-//      Route::post('/Edite/appointment/{id}', 'ReservationsController@EditeAppointment');
+     Route::get('/Edite/appointment/{id}', 'ReservationsController@EditeAppointment');
