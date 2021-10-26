@@ -26,7 +26,8 @@
     <div class="form-black">
 
       <form action='' class='form required '>
-        <p class='field required half'>
+        @csrf
+        {{-- <p class='field required half'>
           <label class='label required' for='name'>First name</label>
           <input class='text-input' id='name' name='fname' required type='text' value=''>
         </p>
@@ -41,24 +42,25 @@
         <p class='field required half'>
           <label class='label' for='phone'>Phone</label>
           <input class='text-input' id='phone' name='phone' type='phone'>
+        </p> --}}
+        <p class='field half required error'>
+          <label class='label' for='Reservation_start'>Reservation start</label>
+          <input name="Reservation_start" type="datetime-local" id="Reservation_start" class="input100" value="{{$Res_find->Reservation_start}}">
         </p>
         <p class='field half required error'>
-          <label class='label' for='login'>Reservation start</label>
-          <input name="start_date" type="datetime-local" id="start-date" class="input100" value="2017-06-13T13:00">
-        </p>
-        <p class='field half required error'>
-          <label class='label' for='login'>Reservation End</label>
-          <input name="end_date" type="time" id="end-date" class="input100" value="">
+          <label class='label' for='Reservation_end'>Reservation End</label>
+          <input name="Reservation_end" type="datetime-local" id="Reservation_end" class="input100" value="{{$Res_find->Reservation_end}}">
+          {{-- <input name="Reservation_end" type="time" id="Reservation_end" class="input100" value="{{$Res_find->Reservation_end}}"> --}}
         </p>
         
         <p class='field required half'>
           <label class='label' for='number_of_devices'>Enter many devises</label>
-          <input class='text-input' id='number_of_devices' name='number_of_devices' type='number'>
+          <input class='text-input' id='number_of_devices' name='number_of_devices' type='number' value="{{$Res_find->number_of_devices}}">
         </p>
         
         <p class='field required half'>
-          <label class='label' for='number_of_handps4'>Enter number of hand ps4</label>
-          <input class='text-input' id='number_of_handps4' name='number_of_handps4' type='number'>
+          <label class='label' for='number_of_gamepad'>Enter number of hand ps4</label>
+          <input class='text-input' id='number_of_gamepad' name='number_of_gamepad' type='number' value="{{$Res_find->number_of_gamepad}}">
         </p>
 
 
