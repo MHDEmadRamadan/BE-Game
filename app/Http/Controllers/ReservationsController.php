@@ -46,7 +46,5 @@ class ReservationsController extends Controller
         $res = Reservation::all();
         $Res_find = Reservation::find($id);
         return view('dashboard/form-editor', compact('res', 'Res_find'));
-
-    
     }
 }
