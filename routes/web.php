@@ -1,7 +1,4 @@
-
-
 <?php
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -41,17 +38,11 @@ Route::get('/pagesignup', 'IndexController@pagesignup');
 // for ps-login page
 Route::get('/pagelogin', 'IndexController@pagelogin');
 
-
-
-
-
 // Customer Route
 // for singup
 Route::post('/cu-signup', 'CustomersController@signup');
 // for login
 Route::get('/cu-login', 'CustomersController@login');
-
-
 
 // admin pages Route
 
@@ -94,8 +85,6 @@ Route::get('/appprofile', 'DashboardController@appprofile');
 // for dashboard register admin page
 Route::get('/registeradmin', 'DashboardController@registeradmin');
 
-
-
 // Reservations Route
 // for dashboard datatable page and browse reservation
 Route::get('/reservationstable', 'ReservationsController@browse');
@@ -103,8 +92,8 @@ Route::get('/reservationstable', 'ReservationsController@browse');
 // for delete reservation
 Route::get('/reservationstable/delete/{id}', 'ReservationsController@delete');
 
-// for model reservation Add Appointment 
-      Route::post('/add/appointment', 'ReservationsController@AddAppointment');
+// for model reservation Add Appointment
+Route::post('/add/appointment', 'ReservationsController@AddAppointment');
 
-     // for model reservation Edite Appointment 
+// for model reservation Edite Appointment
 //      Route::post('/Edite/appointment/{id}', 'ReservationsController@EditeAppointment');

@@ -8,14 +8,12 @@ use App\Reservation;
 
 class ReservationsController extends Controller
 {
-
     // for dashboard table-datatable page
     public function browse()
     {
         $res = Reservation::all();
         return view('dashboard.reservations-table', compact('res'));
     }
-
 
     // for delete reservation
     public function delete($id_del)
@@ -26,22 +24,22 @@ class ReservationsController extends Controller
         return back();
     }
 
-public function AddAppointment(Request $App){
-    // return $App->first_name;
-    $new_appointment = new Reservation;
-    // $new_appointment->first_name = $App->first_name;
-    // $new_appointment->last_name = $App->last_name;
-    // $new_appointment->email = $App->email;
-    // $new_appointment->phone = $App->phone;
-    $new_appointment->Reservation_start = $App->Reservation_start;
-    $new_appointment->Reservation_end = $App->Reservation_end;
-    $new_appointment->number_of_devices = $App->number_of_devices;
-    $new_appointment->number_of_gamepad = $App->number_of_gamepad;
-    $new_appointment->save();
-    return back();
-}
-// public function EditeAppointment($id){
-//     return Reservation::find($id);
-// }
-
+    public function AddAppointment(Request $App)
+    {
+        // return $App->first_name;
+        $new_appointment = new Reservation();
+        // $new_appointment->first_name = $App->first_name;
+        // $new_appointment->last_name = $App->last_name;
+        // $new_appointment->email = $App->email;
+        // $new_appointment->phone = $App->phone;
+        $new_appointment->Reservation_start = $App->Reservation_start;
+        $new_appointment->Reservation_end = $App->Reservation_end;
+        $new_appointment->number_of_devices = $App->number_of_devices;
+        $new_appointment->number_of_gamepad = $App->number_of_gamepad;
+        $new_appointment->save();
+        return back();
+    }
+    // public function EditeAppointment($id){
+    //     return Reservation::find($id);
+    // }
 }
