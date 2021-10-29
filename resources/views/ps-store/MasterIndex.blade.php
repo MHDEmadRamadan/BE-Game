@@ -36,7 +36,6 @@
 							</ul>
 						</li>
 						<li><a href="/elements">Elements</a></li>
-						<li><a href="/appointment">Appointment</a></li>
 						<li><a href="/pagesignup" class="button primary">Sign Up</a></li>
 						<li><a href="/pagelogin" class="button primary">Log In</a></li>
 					</ul>

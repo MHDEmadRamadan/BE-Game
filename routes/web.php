@@ -29,20 +29,29 @@ Route::get('/right-sidebar', 'IndexController@RightSidebar');
 // for ps-store no-sidebar page
 Route::get('/no-sidebar', 'IndexController@NoSidebar');
 
-// for ps-store Appointment page
-Route::get('/appointment', 'IndexController@Appointment');
-
 // for ps-singup page
 Route::get('/pagesignup', 'IndexController@pagesignup');
 
 // for ps-login page
 Route::get('/pagelogin', 'IndexController@pagelogin');
 
+
+
+
+
 // Customer Route
 // for singup
 Route::post('/cu-signup', 'CustomersController@signup');
 // for login
 Route::get('/cu-login', 'CustomersController@login');
+// for ps-store Appointment page
+Route::post('/appointment', 'IndexController@Appointment');
+
+
+
+
+
+
 
 // admin pages Route
 
